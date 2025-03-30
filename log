@@ -25,3 +25,18 @@ Sun, Mar 30, 2025  4:39:11 PM:
  tests:  5|4
 total_score: 25/70
 f04e3ca
+Sun, Mar 30, 2025  5:01:57 PM: 
+ list.c | 17 ++++++++++++++++-
+ 1 file changed, 16 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function 'popCurrent':
+list.c:92:22: error: 'temp' undeclared (first use in this function)
+   92 |     void* dato_aux = temp->aux;
+      |                      ^~~~
+list.c:92:22: note: each undeclared identifier is reported only once for each function it appears in
+list.c:91:11: error: unused variable 'aux' [-Werror=unused-variable]
+   91 |     Node* aux = list->current;
+      |           ^~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+8893122
