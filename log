@@ -40,3 +40,9 @@ list.c:91:11: error: unused variable 'aux' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 8893122
+Sun, Mar 30, 2025  5:03:08 PM: 
+ list.c | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+ tests:  5|4
+total_score: 25/70
+d5cf5a5

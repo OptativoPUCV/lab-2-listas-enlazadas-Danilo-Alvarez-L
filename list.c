@@ -89,20 +89,20 @@ void * popBack(List * list) {
 
 void * popCurrent(List * list) {
     Node* aux = list->current;
-    void* dato_aux = temp->aux;
+    void* dato_aux = aux->data;
 
-    if (temp->prev != NULL)
+    if (aux->prev != NULL)
     {
-        temp->prev->next = temp->next;
+        aux->prev->next = aux->next;
     }
 
-    if (temp->next != NULL)
+    if (aux->next != NULL)
     {
-        temp->next->prev = temp->prev;
+        aux->next->prev = aux->prev;
     }
 
-    list->current = temp->next;
-    free(temp);
+    list->current = aux->next;
+    free(aux);
     return dato_aux;
 }
 
