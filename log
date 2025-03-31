@@ -102,3 +102,9 @@ Sun, Mar 30, 2025 10:45:03 PM:
  tests:  11|1
 total_score: 60/70
 596e4b8
+Sun, Mar 30, 2025 10:48:42 PM: 
+ list.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+ tests:  11|1
+total_score: 60/70
+2d896b5
